@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+    background-color: rgb(252, 251, 247);
+    font-family: "Oswald", sans-serif;
+}
+header{
+    background-color: rgb(110, 110, 241);
+    height: 100px;
+    width: auto;
+}
+header h1{
+    color: white;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+#glowny h1{
+    padding-left: 4%;
+    
+}
+#glowny{
+    float: left;
+    width: 70%;
+}
+#boczny{
+    float: left;
+    padding-top: 10%;
+    padding-left: 4%;
+    width: 26%;
+}
+footer{
+    clear: both;
+}
+#zadania{
+    background-color: rgb(208, 208, 208);
+    height:350px;
+    padding-left: 5%;
+    padding-top: 3%;
+    border-radius: 30px;
+}
+button{
+    background-color: rgb(65, 65, 255);
+    height: 15%;
+    margin-bottom: 7px;
+    width: 30%;
+    box-shadow: -1px 1px 36px 11px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 1px 36px 11px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 36px 11px rgba(0,0,0,0.75);
+border-radius: 10px;
+}
+button:hover{
+    position: relative;
+    background-color: rgb(65, 255, 122);
+    height: 18%;
+    width: 45%;
+    transition-duration: 0.4s;
+}
+footer{
+    text-align: center;
+}
